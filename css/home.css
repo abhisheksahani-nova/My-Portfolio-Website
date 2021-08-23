@@ -155,3 +155,67 @@ header img {
   width: 48px;
   height: 48px;
 }
+
+
+
+/* Project section */
+.project{
+  height: 270px;
+  text-align: center;
+  background-color: #DEF2F1;
+}
+
+.project-heading{
+  padding: 50px 0px 25px;
+  font-family: 'Lora', serif;
+  color: #444444;
+  letter-spacing: 1px;
+}
+
+
+
+/* Blogs section */
+.blog{
+  height: 270px;
+  text-align: center;
+}
+
+.blog-heading{
+  padding: 50px 0px 25px;
+  font-family: 'Lora', serif;
+  color: #444444;
+  letter-spacing: 1px;
+
+}
+
+
+/* footer */
+.footer{
+  height: 150px;
+  text-align: center;
+  background-color: #3AAFA9;
+  color: white;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.footer-heading{
+  padding: 50px 0px 15px;
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-listItem{
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.footer-listLink{
+  font-family: 'Source Sans Pro', sans-serif;
+}
