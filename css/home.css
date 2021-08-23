@@ -80,3 +80,78 @@ header img {
   font-family: 'Lora', serif;
   letter-spacing: 1px;
 }
+
+
+
+
+/* Skill Section */
+.skill{
+  height: 700px;
+  text-align: center;
+  background-color: #DEF2F1;
+}
+
+.skill-heading{
+  padding: 50px 0px 10px;
+  font-family: 'Lora', serif;
+  color: #444444;
+  letter-spacing: 1px;
+}
+
+.icons{
+  width: 55%;
+  margin: 10px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.icon{
+  width: 70px;
+  height: 60px;
+  margin: 50px 57px;
+  text-align: center;
+
+}
+
+.icon-subHeading{
+  margin-bottom: 45px;
+  font-size: 14px;
+}
+
+.icon-text{
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #444444;
+}
+
+
+
+
+/* Tools Section */
+.tools{
+  height: 550px;
+  text-align: center;
+}
+
+.tools-heading{
+  padding: 50px 0px 10px;
+  font-family: 'Lora', serif;
+  color: #444444;
+  letter-spacing: 1px;
+}
+
+.icon-tool{
+  width: 70px;
+  height: 60px;
+  margin: 50px;
+  text-align: center;
+}
+
+
+.icon-img{
+  width: 48px;
+  height: 48px;
+}
