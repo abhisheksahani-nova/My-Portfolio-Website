@@ -32,3 +32,51 @@ span{
   border-radius: 3px;
   color: white;
 }
+
+
+
+/* navigation bar */
+.nav{
+  background-color: #3AAFA9;
+  border-radius: 0px 0px 0px 20px;
+
+}
+
+.nav-brand{
+  padding-top: 15px;
+  padding-left: 15px;
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-listItem{
+  list-style-type: none;
+  margin: 15px 60px 25px 0px;
+}
+
+
+
+/* Header */
+.hero{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+header img {
+  height: 380px;
+  margin-bottom: 20px;
+}
+
+.main-heading{
+  margin: 20px auto 30px;
+  color: #687980;
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+}
