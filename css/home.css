@@ -24,12 +24,12 @@ span{
 
 
 .btn{
-  width: 130px;
-  height: 35px;
+  width: 8.125rem;
+  height: 2.188rem;
   background-color: #3AAFA9;
   border: 0;
-  margin-top: 40px;
-  border-radius: 3px;
+  margin-top: 2.5rem;
+  border-radius: 0.188rem;
   color: white;
 }
 
@@ -38,13 +38,13 @@ span{
 /* navigation bar */
 .nav{
   background-color: #3AAFA9;
-  border-radius: 0px 0px 0px 20px;
+  border-radius: 0 0 0 1.25rem;
 
 }
 
 .nav-brand{
-  padding-top: 15px;
-  padding-left: 15px;
+  padding-top: 0.938rem;
+  padding-left: 0.938rem;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
 }
@@ -57,7 +57,7 @@ span{
 
 .nav-listItem{
   list-style-type: none;
-  margin: 15px 60px 25px 0px;
+  margin: 0.938rem 3.75rem 1.563rem 0;
 }
 
 
@@ -65,17 +65,17 @@ span{
 /* Header */
 .hero{
   text-align: center;
-  padding: 10px;
-  margin-bottom: 80px;
+  padding: 0.625rem;
+  margin-bottom: 5rem;
 }
 
 header img {
-  height: 380px;
-  margin-bottom: 20px;
+  min-height: 23.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .main-heading{
-  margin: 20px auto 30px;
+  margin: 1.25rem auto 1.875rem;
   color: #687980;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
@@ -86,13 +86,13 @@ header img {
 
 /* Skill Section */
 .skill{
-  height: 700px;
+  min-height: 43.75rem;
   text-align: center;
   background-color: #DEF2F1;
 }
 
 .skill-heading{
-  padding: 50px 0px 10px;
+  padding: 3.125rem 0 0.625rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
@@ -100,7 +100,7 @@ header img {
 
 .icons{
   width: 55%;
-  margin: 10px auto 0;
+  margin: 0.625rem auto 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -108,22 +108,21 @@ header img {
 }
 
 .icon{
-  width: 70px;
-  height: 60px;
-  margin: 50px 57px;
+  width: 4.375rem;
+  height: 3.75rem;
+  margin: 3.125rem 3.563rem;
   text-align: center;
-
 }
 
 .icon-subHeading{
-  margin-bottom: 45px;
-  font-size: 14px;
+  margin-bottom: 2.813rem;
+  font-size: 0.875rem;
 }
 
 .icon-text{
   font-family: 'Lora', serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 0.938rem;
   color: #444444;
 }
 
@@ -132,41 +131,41 @@ header img {
 
 /* Tools Section */
 .tools{
-  height: 550px;
+  min-height: 34.375rem;
   text-align: center;
 }
 
 .tools-heading{
-  padding: 50px 0px 10px;
+  padding: 3.125rem 0 0.625rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
 }
 
 .icon-tool{
-  width: 70px;
-  height: 60px;
-  margin: 50px;
+  width: 4.375rem;
+  min-height: 3.75rem;
+  margin: 3.125rem;
   text-align: center;
 }
 
 
 .icon-img{
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
 }
 
 
 
 /* Project section */
 .project{
-  height: 270px;
+  min-height: 16.875rem;
   text-align: center;
   background-color: #DEF2F1;
 }
 
 .project-heading{
-  padding: 50px 0px 25px;
+  padding: 3.125rem 0 1.563rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
@@ -176,12 +175,12 @@ header img {
 
 /* Blogs section */
 .blog{
-  height: 270px;
+  min-height: 16.875rem;
   text-align: center;
 }
 
 .blog-heading{
-  padding: 50px 0px 25px;
+  padding: 3.125rem 0 1.563rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
@@ -191,18 +190,18 @@ header img {
 
 /* footer */
 .footer{
-  height: 150px;
+  min-height: 9.375rem;
   text-align: center;
   background-color: #3AAFA9;
   color: white;
-  border-radius: 0px 20px 0px 0px;
+  border-radius: 0 1.25rem 0 0;
 }
 
 .footer-heading{
-  padding: 50px 0px 15px;
+  padding: 3.125rem 0 0.938rem;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .footer-list{
@@ -213,7 +212,7 @@ header img {
 
 .footer-listItem{
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .footer-listLink{
