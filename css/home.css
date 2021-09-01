@@ -119,12 +119,8 @@ header img {
 }
 
 .icons{
-  width: 55%;
+  width: 70%;
   margin: 0.625rem auto 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 3rem;
 }
 
 .iconDiv-container{
