@@ -10,6 +10,7 @@
   color: white;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
+  font-size: 1rem;
 }
 
 .para{
@@ -18,18 +19,30 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.para-text{
+  color: #555555;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+}
+
 span{
   color: #3AAFA9;
 }
 
+.span-text{
+  font-size: 2.2rem;
+  color: #333333;
+}
+
 
 .btn{
-  width: 130px;
-  height: 35px;
+  width: 8.125rem;
+  height: 2.188rem;
   background-color: #3AAFA9;
   border: 0;
-  margin-top: 40px;
-  border-radius: 3px;
+  margin-top: 2.5rem;
+  border-radius: 0.188rem;
   color: white;
 }
 
@@ -38,13 +51,13 @@ span{
 /* navigation bar */
 .nav{
   background-color: #3AAFA9;
-  border-radius: 0px 0px 0px 20px;
+  border-radius: 0 0 0 1.25rem;
 
 }
 
 .nav-brand{
-  padding-top: 15px;
-  padding-left: 15px;
+  padding-top: 0.938rem;
+  padding-left: 0.938rem;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
 }
@@ -57,7 +70,7 @@ span{
 
 .nav-listItem{
   list-style-type: none;
-  margin: 15px 60px 25px 0px;
+  margin: 0.938rem 3.75rem 1.563rem 0;
 }
 
 
@@ -65,144 +78,129 @@ span{
 /* Header */
 .hero{
   text-align: center;
-  padding: 10px;
-  margin-bottom: 80px;
+  padding: 0.625rem;
+  margin-bottom: 5rem;
 }
 
 header img {
-  height: 380px;
-  margin-bottom: 20px;
+  height: 23.75rem;
+  width: 80vw;
+  margin-bottom: 1.25rem;
 }
 
 .main-heading{
-  margin: 20px auto 30px;
+  margin: 1.25rem auto 1.875rem;
   color: #687980;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
+  font-size: 2rem;
 }
+
 
 
 
 
 /* Skill Section */
 .skill{
-  height: 700px;
+  padding: 0 4rem 4rem;
   text-align: center;
   background-color: #DEF2F1;
 }
 
-.skill-heading{
-  padding: 50px 0px 10px;
+.section-heading{
+  padding: 3.125rem 0 0.625rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
+  font-size: 1.6rem;
 }
 
 .icons{
-  width: 55%;
-  margin: 10px auto 0;
+  width: 70%;
+  margin: 0.625rem auto 0;
+}
+
+.iconDiv-container{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
+  margin: 3rem;
 }
 
 .icon{
-  width: 70px;
-  height: 60px;
-  margin: 50px 57px;
+  width: 5.2rem;
+  height: 5.4rem;
   text-align: center;
-
 }
 
 .icon-subHeading{
-  margin-bottom: 45px;
-  font-size: 14px;
+  margin-bottom: 2.813rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
 }
 
 .icon-text{
   font-family: 'Lora', serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 0.938rem;
   color: #444444;
 }
-
-
 
 
 /* Tools Section */
 .tools{
-  height: 550px;
+  padding: 0 4rem 4rem;
   text-align: center;
-}
-
-.tools-heading{
-  padding: 50px 0px 10px;
-  font-family: 'Lora', serif;
-  color: #444444;
-  letter-spacing: 1px;
-}
-
-.icon-tool{
-  width: 70px;
-  height: 60px;
-  margin: 50px;
-  text-align: center;
-}
-
-
-.icon-img{
-  width: 48px;
-  height: 48px;
 }
 
 
 
 /* Project section */
 .project{
-  height: 270px;
+  padding: 0 4rem 4rem;
   text-align: center;
   background-color: #DEF2F1;
 }
 
 .project-heading{
-  padding: 50px 0px 25px;
+  padding: 3.125rem 0 1.563rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
+  font-size: 1.6rem;
 }
 
 
 
 /* Blogs section */
 .blog{
-  height: 270px;
+  padding: 0 4rem 4rem;
   text-align: center;
 }
 
 .blog-heading{
-  padding: 50px 0px 25px;
+  padding: 3.125rem 0 1.563rem;
   font-family: 'Lora', serif;
   color: #444444;
   letter-spacing: 1px;
-
+  font-size: 1.6rem;
 }
 
 
 /* footer */
 .footer{
-  height: 150px;
   text-align: center;
+  padding: 0 4rem 4rem;
   background-color: #3AAFA9;
   color: white;
-  border-radius: 0px 20px 0px 0px;
+  border-radius: 0 1.25rem 0 0;
 }
 
 .footer-heading{
-  padding: 50px 0px 15px;
+  padding: 3.125rem 0 0.938rem;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 1.6rem;
 }
 
 .footer-list{
@@ -213,9 +211,43 @@ header img {
 
 .footer-listItem{
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .footer-listLink{
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+ .skill{
+   padding: 0 1.6rem 4rem;
+ }
+
+ .tools{
+   padding: 0 1.6rem 4rem;
+ }
+
+ .icons{
+   width: 100%;
+   margin: 0;
+ }
+
+ .iconDiv-container{
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
+
+ .logo{
+   width: 2.2rem;
+   height: 2.2rem;
+ }
+
+ .icon-text{
+   font-size: 0.6rem;
+ }
+
 }
