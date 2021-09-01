@@ -127,6 +127,13 @@ header img {
   margin: 3rem;
 }
 
+.iconDiv-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
 .icon{
   width: 5.2rem;
   height: 5.4rem;
