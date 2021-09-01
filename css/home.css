@@ -87,11 +87,11 @@ span{
 
 header img {
   height: 60vh;
-  width: 80vw;
+  width: 90vw;
   margin-bottom: 1.25rem;
 }
 
-.main-heading{
+#main-heading{
   margin: 1.25rem auto 1.875rem;
   color: #687980;
   font-family: 'Lora', serif;
@@ -204,7 +204,7 @@ header img {
   padding: 1.5rem 0 1rem;
   font-family: 'Lora', serif;
   letter-spacing: 1px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .footer-list{
@@ -256,7 +256,7 @@ header img {
  }
 
  .icon-subHeading{
-   padding: 0 1.5rem; 
+   padding: 0 1.5rem;
  }
 
  .iconDiv-container{
@@ -271,15 +271,15 @@ header img {
  }
 
  .navBrand-link{
-   font-size: 0.8rem;
+   font-size: 0.6rem;
  }
 
  .nav-listItem{
-   margin: 0.938rem 1rem 1.563rem 0;
+   margin: 0.938rem 0.7rem 1.563rem 0;
  }
 
  .link{
-   font-size: 0.9rem;
+   font-size: 0.7rem;
  }
 
  .hero{
@@ -287,8 +287,13 @@ header img {
  }
 
  header img {
-   height: 50vh;
+   height: 40vh;
    margin-bottom: 0;
+ }
+
+ #main-heading{
+   margin-top: 0.5rem;
+   padding: 0 1rem;
  }
 
  .footer{
@@ -296,7 +301,7 @@ header img {
  }
 
  .footer-heading{
-   font-size: 1.3rem;
+   font-size: 1.2rem;
  }
 
  .logo{
@@ -317,8 +322,5 @@ header img {
  .footer-para{
    font-size: 0.8rem;
  }
-
-
-
 
 }
