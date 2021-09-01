@@ -48,7 +48,7 @@ span{
 
 
 
-/* navigation bar */
+/* navigation bar  */
 .nav{
   background-color: #3AAFA9;
   border-radius: 0 0 0 1.25rem;
@@ -119,11 +119,8 @@ header img {
 }
 
 .icons{
-  width: 70%;
+  width: 55%;
   margin: 0.625rem auto 0;
-}
-
-.iconDiv-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
