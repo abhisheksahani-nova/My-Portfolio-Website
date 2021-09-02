@@ -8,39 +8,36 @@
 
 /* Header */
 ._hero{
-  height: 200px;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 30px;
+  margin: 3rem;
+  padding: 2.5rem;
 }
 
 ._heading{
-  padding-top: 100px;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #687980;
   font-family: 'Lora', serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
-
 
 
 /* project section */
 ._project-listItem{
-  padding: 15px 0;
+  width: 100vw;
+  
 }
 
 ._project{
-/*  height: 320px;  */
-  width: 600px;
-  padding: 20px 0px;
+width: 70vw;
+  padding: 1.25rem 0;
   margin: 0 auto;
 
 }
 
 ._projectHeading{
-  margin: 20px 0;
+  margin: 1.25rem 0;
   font-family: 'Lora', serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
   color: #656565;
 }
 
@@ -48,35 +45,35 @@
 
 ._date{
   display: block;
-  margin: 12px 0;
+  margin: 0.75rem 0;
   font-family: 'Source Sans Pro', sans-serif;
   color: #687980;
 }
 
 ._btn1{
   display: block;
-  width: 130px;
-  height: 35px;
+  width: 8.125rem;
+  height: 2.188rem;
   background-color: #3AAFA9;
   border: 0;
-  border-radius: 3px;
+  border-radius: 0.188rem;
   color: white;
-  margin: 22px 0 16px;
+  margin: 1.375rem 0 1rem;
 
 }
 
 ._btn2{
   display: block;
-  width: 130px;
-  height: 35px;
+  width: 8.125rem;
+  height: 2.188rem;
   background-color: white;
-  border: 1px solid #3AAFA9;
-  border-radius: 3px;
+  border: 0.063rem solid #3AAFA9;
+  border-radius: 0.188rem;
   color: #3AAFA9;
 }
 
 ._paragraph{
   font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.063;
   color: #687980;
 }
