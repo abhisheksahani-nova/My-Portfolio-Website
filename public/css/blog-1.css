@@ -1,0 +1,64 @@
+.header_{
+  margin: 4.5rem;
+  margin-top: 6rem;
+}
+
+.heading_{
+  text-align: center;
+  color: #687980;
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+}
+
+.section_{
+  width: 58%;
+  margin: 7rem auto 8rem;
+}
+
+.span-fontSize{
+  font-size: 1.8rem;
+}
+
+.span-bold{
+  color: black;
+}
+
+.para_{
+  margin: 2rem 0;
+  color: #555555;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3rem;
+}
+
+.listItem_{
+  margin: 2rem 0;
+  color: #555555;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3rem;
+}
+
+.list_container{
+  margin-left: 2rem;
+}
+
+
+
+@media only screen and (max-width: 43.75rem) {
+
+  .header_{
+    margin: 4rem 2rem 0rem;
+  }
+
+  .heading_{
+    font-size: 2rem;
+  }
+
+  .section_{
+    width: 80%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+}
