@@ -44,8 +44,13 @@
   margin-top: 2.5rem;
   border-radius: 0.188rem;
   color: white;
+  cursor: pointer;
 }
 
+.btn:hover{
+  background-color: black;
+  color: #DEF2F1;
+}
 
 
 /* navigation bar  */

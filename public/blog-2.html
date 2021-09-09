@@ -48,7 +48,8 @@
 
       <p class="para_">
         Making website responsive can become headache if you have not planned for it in advance, and the situation
-        becomes even worse when you have to deal with so many screen sizes for desktop, tablet & mobile.
+        becomes even worse when you have to deal with so many screen sizes for desktop, tablet & mobile, and with each
+        device brand having different screen sizes.
       </p>
 
       <p class="para_">
@@ -60,18 +61,23 @@
           <li class="listItem_">
             Instead of using fixed sizes like pixels, start using variable sizes like rem, em & % for styling,
             this will ensure the change of your HTML element size with change of screen size, it will solve most of your problems.
-            If you struggle to convert pixel size to rem, use pixel to rem calculator instead.
+            If you struggle to convert pixel size to rem, use pixel to rem calculator instead. Especially dont give
+            fixed sizes to height and width value, because when you give fixed height to your div container suppose,
+            and when width decreases in mobile view the height remains the same due to fixed height, which leads to
+            overflow of content in the div container, and the best way is to dont give height at all, let the
+            content in the div container take its height, dont set any height if not necessary.
           </li>
           <li class="listItem_">
             Build mobile layout first instead of building desktop first & then doing the mobile, because mobile
-            layout's are generally simple compare to desktop layout, so it becomes easy to then add complexity
-            for desktop layout using media query.
+            layout's are generally simple compare to desktop layout, so it becomes easy to then add complexity like
+            flexbox or grid layout for desktop using media query.
           </li>
           <li class="listItem_">
             Don't try to create tons of media queries trying to target every device width that exist, with so
             many phones, tablets & screen sizes its simply not practical, your only going to get confused, instead
             try to write one breakpoint for mobile with width 700px, that will cover every mobile device somewhere
-            in this range.
+            in this range, and if you want to target tablet screen size also, then use around 800-900px accordingly,
+            this way you would be writing less media query by avoiding repetitive code.
           </li>
         </ul>
       </div>
