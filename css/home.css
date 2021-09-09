@@ -46,6 +46,11 @@
   color: white;
 }
 
+.btn:hover{
+  background-color: black;
+  color: #DEF2F1;
+}
+
 
 
 /* navigation bar  */
